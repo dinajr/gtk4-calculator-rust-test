@@ -1,0 +1,12 @@
+[package]
+name = "gtk4-calculator-rust-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+meval = "0.2.0"
+
+[dependencies.gtk4]
+package = "gtk4"
+version = "0.10.3"
+features = ["v4_20"]
